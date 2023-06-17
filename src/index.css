@@ -1,0 +1,41 @@
+*{
+  margin: 0px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.divider{
+  width: 100vw;
+  height: 25vw;
+  margin-bottom: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App section:nth-child(8){
+  margin-bottom: 80vh;
+}
+
+#dayOfTheWeek{
+  font-size: 100px;
+  position: fixed;
+  top: 30px;
+  left: 0px;
+  margin: 10px;
+  color: blue;
+  animation: opacity 1s;
+}
+
+@keyframes opacity {
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+
